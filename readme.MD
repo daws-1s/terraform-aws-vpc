@@ -22,7 +22,7 @@ This module is going to create the following resources. for HA we are going to g
 * project_name (Mandatory): User must supply their project name.
 * environment (Mandatory): User must supply their environment name.
 * vpc_cidr (Mandatory): User must supply their VPC CIDR.
-* enable_dns_hostname (Optional): defaults to true.
+* enable_dns_hostnames(Optional): defaults to true.
 * common_tags (Optional): Default is empty. User can supply tags in map(string) format.
 * vpc_tags (Optional): Default is empty. User can supply tags in map(string) format.
 * igw_tags (Optional): Default is empty. User can supply tags in map(string) format.
